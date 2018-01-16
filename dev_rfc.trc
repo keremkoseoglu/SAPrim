@@ -1,0 +1,241 @@
+
+**** ERROR file opened at 20080917 164602 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:1120 Error in program 'java': ======> Ad veya parola do#ru de#il (oturum açmay# tekrarlay#n)
+T:1120 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Sep 17 16:46:15 2008
+T:1120 Error in program 'java': ======> Ad veya parola do#ru de#il (oturum açmay# tekrarlay#n)
+T:1120 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080917 171353 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:1884 Error in program 'java': ======> Ad veya parola do#ru de#il (oturum açmay# tekrarlay#n)
+T:1884 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080917 171427 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:6524 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.0.0.401, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname '10.0.0.401' unknown
+
+TIME        Wed Sep 17 17:14:27 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: '10.0.0.401' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+>TS> Wed Sep 17 17:14:34 2008
+T:6524 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.0.0.401, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname '10.0.0.401' unknown
+
+TIME        Wed Sep 17 17:14:34 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -2
+MODULE      nixxhsl.cpp
+LINE        233
+DETAIL      NiHsLGetNodeAddr: hostname cached as unknown
+COUNTER     4
+
+
+**** ERROR file opened at 20080924 135300 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:5280 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.0.0.40, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '10.0.0.40:3300' not reached
+
+TIME        Wed Sep 24 13:53:00 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -10
+MODULE      nixxi.cpp
+LINE        3139
+DETAIL      NiPConnect2: 10.0.0.40:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+
+**** ERROR file opened at 20081008 104038 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:2716 Error in program 'java': ======> Ad veya parola do#ru de#il (oturum açmay# tekrarlay#n)
+T:2716 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081029 125552 GTB Standard Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:5384 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.0.0.40, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '10.0.0.40:3300' not reached
+
+TIME        Wed Oct 29 12:55:52 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -10
+MODULE      nixxi.cpp
+LINE        3139
+DETAIL      NiPConnect2: 10.0.0.40:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20081029 125843 GTB Standard Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:7532 Error in program 'java': ======> CMALLC : rc=20 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       partner 'host-62-244-231-231.borusantelekom.com:sapgw00' not
+            reached
+
+TIME        Wed Oct 29 12:55:55 2008
+RELEASE     700
+COMPONENT   NI (network interface)
+VERSION     38
+RC          -10
+MODULE      nixxi.cpp
+LINE        2823
+DETAIL      NiPConnect2
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+**** ERROR file opened at 20090525 102317 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:5844 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.0.0.40, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner 'KeremLT2:3300' not reached
+
+TIME        Mon May 25 10:23:17 2009
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -10
+MODULE      nixxi.cpp
+LINE        3139
+DETAIL      NiPConnect2: 10.0.0.40:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20090525 102429 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:3576 Error in program 'java': ======> CMALLC : rc=27 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       timeout during allocate
+
+TIME        Mon May 25 10:24:29 2009
+RELEASE     700
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          242
+MODULE      gwr3cpic.c
+LINE        1973
+DETAIL      no connect of TP sapdp00 from host
+            host-62-244-231-231.borusantelekom.com after 20 sec
+COUNTER     2
+
+>TS> Mon May 25 10:24:58 2009
+T:3576 Error in program 'java': ======> CMALLC : rc=20 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       partner 'host-62-244-231-231.borusantelekom.com:sapgw00' not
+            reached
+
+TIME        Mon May 25 10:24:58 2009
+RELEASE     700
+COMPONENT   NI (network interface)
+VERSION     38
+RC          -10
+MODULE      nixxi.cpp
+LINE        2823
+DETAIL      NiPConnect2
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+**** ERROR file opened at 20090525 102606 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:3016 Error in program 'java': ======> CMALLC : rc=27 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       timeout during allocate
+
+TIME        Mon May 25 10:26:06 2009
+RELEASE     700
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          242
+MODULE      gwr3cpic.c
+LINE        1973
+DETAIL      no connect of TP sapdp00 from host
+            host-62-244-231-231.borusantelekom.com after 20 sec
+COUNTER     2
+
+
+**** ERROR file opened at 20090605 132005 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:4980 Error in program 'java': ======> Syntax error in program ZSAPRIM_PROCESS_CONFIRMATIONS           .
+T:4980 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:4980 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20090617 104017 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:5772 Error in program 'java': ======> CMALLC : rc=20 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       partner 'host-62-244-231-231.borusantelekom.com:sapgw00' not
+            reached
+
+TIME        Wed Jun 17 10:40:16 2009
+RELEASE     700
+COMPONENT   NI (network interface)
+VERSION     38
+RC          -10
+MODULE      nixxi.cpp
+LINE        2823
+DETAIL      NiPConnect2
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+**** ERROR file opened at 20090617 104656 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:3480 Error in program 'java': ======> CMALLC : rc=27 > Connect from SAP gateway to RFC server failed
+Connect_PM  GWHOST=62.244.231.231, GWSERV=sapgw00, SYSNR=00
+
+LOCATION    SAP-Gateway on host saptestsrv / sapgw00
+ERROR       timeout during allocate
+
+TIME        Wed Jun 17 10:46:55 2009
+RELEASE     700
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          242
+MODULE      gwr3cpic.c
+LINE        1973
+DETAIL      no connect of TP sapdp00 from host
+            host-62-244-231-231.borusantelekom.com after 20 sec
+COUNTER     2
+

@@ -1,0 +1,23 @@
+sapIP=10.0.0.40
+sapClient=150
+sapSystem=STT
+sapLang=TR
+sapUser=gurkane
+sapPass=tjp25976
+primHome=C:\Program Files\Primavera\IntegrationAPI
+primUser=kerem7
+primPass=kerem7
+primSqlUrl=jdbc:sqlserver://localhost;instanceName=PRIMAVERA;DatabaseName=pmdb$primavera
+primSqlUser=privuser
+primSqlPass=privuser
+defBusinessArea=1000
+defCompanyCode=1101
+defPlant=1101
+defProfile=20102
+defManager=00001100
+defRequester=00000001
+defProfitCenter=0000110100
+defProjectType=70
+defMrpController=001
+defWorkCenter=T01QA
+defDistributionKey=SAP020
